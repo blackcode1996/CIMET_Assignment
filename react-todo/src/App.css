@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #558abb; 
+  --secondary-color: #ffffff; 
+
+
+  --gradient-color1: #6a5acd; 
+  --gradient-color2: #ff69b4; 
+  --gradient-color3: #ff6347; 
+  --gradient-color4: #87ceeb;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* input {
+  width: 30em;
+  padding: 20px;
+  border: 5px solid var(--primary-color);
+  border-radius: 20px;
+} */

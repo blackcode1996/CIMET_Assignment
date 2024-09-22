@@ -1,0 +1,48 @@
+.darksoul-glowing-button {
+  margin: auto;
+  width: 180px;
+  height: 70px;
+  display: flex;
+  border-radius: 35px;
+  animation: rotation 3s linear 0s infinite;
+}
+
+.darksoul-glowing-button:hover {
+  background: linear-gradient(
+    var(--gradient-angle),
+    var(--gradient-color1),
+    var(--gradient-color2),
+    var(--gradient-color3),
+    var(--gradient-color4)
+  );
+}
+
+.darksoul-button {
+  width: 98%;
+  height: 94%;
+  background-color: var(--primary-color);
+  margin: auto;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 35px;
+  color: #fff;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: background 0.3s ease;
+}
+
+@keyframes rotation {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 360deg;
+  }
+}
+
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
